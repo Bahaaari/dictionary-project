@@ -14,7 +14,7 @@ export default function App() {
           <Dictionary />
         </main>
       </div>
-      <footer>Coded by SheCodes</footer>
+      <footer className="text-center mt-3">Coded by SheCodes</footer>
     </div>
   );
 }
