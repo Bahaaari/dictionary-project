@@ -11,12 +11,12 @@ export default function Phonetic(props) {
   return (
     <div className="phonetic">
       <button onClick={handleClick}>
-        <i class="fas fa-volume-up"></i>
+        <i class="fa fa-volume-up" aria-hidden="true"></i>
       </button>
       {play && (
         <ReactAudioPlayer
           src={props.phonetic.audio}
-          outoPlay
+          autoPlay
           onEnded={() => setPlay(false)}
         />
       )}
