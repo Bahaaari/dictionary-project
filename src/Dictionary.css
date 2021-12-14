@@ -1,0 +1,16 @@
+:root {
+  --background-color: #f7f2f7;
+  --primary-color: #fafafa;
+  --branding-color: #feefea;
+  --heading-font-color: #202124;
+  --font-color: #b09896;
+}
+
+.Dictionary section {
+  background-color: var(--primary-color);
+  margin: 20px 0;
+}
+
+.Dictionary input {
+  width: 100%;
+}
