@@ -1,0 +1,21 @@
+:root {
+  --background-color: #f7f2f7;
+  --primary-color: #fafafa;
+  --border-color: #c9c2cc;
+  --font-color: #35283c;
+  --second-font-color: #b69e9c;
+}
+
+.phonetic button {
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--second-font-color);
+  font-size: 24px;
+}
+
+.phonetic .text {
+  margin-left: 5px;
+  font-size: 18px;
+  position: relative;
+  top: -3px;
+}

@@ -1,18 +1,22 @@
 :root {
   --background-color: #f7f2f7;
-  --primary-color: #c9c2cc;
-  --branding-color: #0e75a9;
-  --heading-font-color: #35283c;
-  --font-color: #b09896;
+  --primary-color: #fafafa;
+  --border-color: #c9c2cc;
+  --font-color: #35283c;
+  --second-font-color: #b69e9c;
 }
 
 body {
   background-color: var(--background-color);
-  color: var(--heading-font-color);
+  color: var(--font-color);
 }
 
 h1 {
   color: var(--heading-font-color);
+}
+
+.App-wrapped {
+  margin: 30px;
 }
 
 .App-logo {

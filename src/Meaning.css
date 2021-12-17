@@ -1,0 +1,17 @@
+:root {
+  --background-color: #f7f2f7;
+  --primary-color: #fafafa;
+  --border-color: #c9c2cc;
+  --font-color: #35283c;
+  --second-font-color: #b69e9c;
+}
+
+.meaning h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.meaning .example {
+  color: var(--second-font-color);
+  font-style: italic;
+}

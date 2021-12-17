@@ -1,16 +1,39 @@
 :root {
   --background-color: #f7f2f7;
   --primary-color: #fafafa;
-  --branding-color: #feefea;
-  --heading-font-color: #202124;
-  --font-color: #b09896;
+  --border-color: #c9c2cc;
+  --font-color: #35283c;
+  --second-font-color: #b69e9c;
+}
+
+.Dictionary h1 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
 }
 
 .Dictionary section {
   background-color: var(--primary-color);
-  margin: 20px 0;
+  margin: 30px 0;
+  padding: 30px;
+  border-radius: 6px;
 }
 
 .Dictionary input {
   width: 100%;
+  border: 1px solid var(--border-color);
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  color: var(--second-font-color);
+  font-size: 16px;
+  height: 50px;
+  line-height: 20px;
+  outline: none;
+}
+
+.Dictionary input:focus {
+  border: 1px solid var(--font-color);
+  color: var(--font-color);
 }

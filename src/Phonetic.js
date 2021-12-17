@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ReactAudioPlayer from "react-audio-player";
+import "./Phonetic.css";
 
 export default function Phonetic(props) {
   const [play, setPlay] = useState(false);
@@ -21,8 +22,7 @@ export default function Phonetic(props) {
         />
       )}
 
-      <br />
-      {props.phonetic.text}
+      <span className="text">{props.phonetic.text}</span>
     </div>
   );
 }
